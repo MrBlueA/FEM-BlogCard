@@ -1,0 +1,14 @@
+.authorCard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  width: fit-content;
+  align-content: center;
+  justify-content: center;
+}
+
+.author-img {
+  max-height: 32px;
+  max-width: 32px;
+  margin: auto 0 auto 0;
+}

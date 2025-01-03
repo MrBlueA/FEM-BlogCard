@@ -1,0 +1,36 @@
+html {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+  background-color: hsl(47, 88%, 63%);
+  font-family: 'Figtree', sans-serif;
+}
+
+.text-preset-1 {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.text-preset-2 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.text-preset-3 {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.text-preset-3-bold {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.align-self-start {
+  align-self: start;
+}

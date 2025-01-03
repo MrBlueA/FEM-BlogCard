@@ -1,0 +1,33 @@
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  max-width: 336px;
+  align-items: center;
+}
+
+.category {
+  padding: 4px 12px;
+  border: transparent;
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  width: fit-content;
+
+}
+
+.title {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.blogThumbnail {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+
